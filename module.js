@@ -12,7 +12,7 @@ Hooks.on('init', () => {
     });
   });
 
-Hooks.on("renderSceneNavigation", (sceneNav, html, data) => {
+Hooks.on("canvasReady", (sceneNav, html, data) => {
     if (game.settings.get("streaming-mode", "centerOnSceneChange")) {
         canvas.pan({ x: canvas.dimensions.width / 2, y: canvas.dimensions.height / 2, scale: 1 - (canvas.dimensions.sceneHeight / canvas.dimensions.height) });
     }
