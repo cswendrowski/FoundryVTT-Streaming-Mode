@@ -14,6 +14,11 @@ Hooks.on('init', () => {
 
 Hooks.on("canvasReady", (sceneNav, html, data) => {
     if (game.settings.get("streaming-mode", "centerOnSceneChange")) {
-        canvas.pan({ x: canvas.dimensions.width / 2, y: canvas.dimensions.height / 2, scale: 1 - (canvas.dimensions.sceneHeight / canvas.dimensions.height) });
+      if (canvas.dimensions.sceneWidth > canvas.dimensions.sceneHeight) {
+        canvas.pan({ x: canvas.dimensions.width / 2, y: canvas.dimensions.height / 2, scale: (window.innerWidth  / canvas.dimensions.sceneWidth) - 0.0});
+      }
+      else {
+        canvas.pan({ x: canvas.dimensions.width / 2, y: canvas.dimensions.height / 2, scale: (window.innerHeight / canvas.dimensions.sceneHeight) - 0.0});
+      }
     }
 });
