@@ -1,3 +1,4 @@
 {
-    "SM.CONFIG.CenterOnChange": "Should the game autocenter and autoscale a scene when navigated to?"
+    "SM.CONFIG.CenterOnChange": "Should the game autocenter and autoscale a scene when navigated to?",
+    "SM.CONFIG.AutoSwapScenesToMostViewers": "Should this user automatically swap to the scene with the most viewers?"
 }
