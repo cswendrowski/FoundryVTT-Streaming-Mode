@@ -12,6 +12,7 @@ A set of quality of life features for a user configured as the viewport for a St
 
 ![](./autocenter.gif)
 
+2) Automatically swap the scene to the scene with the most users viewing it
 
 ## Changelog
 
