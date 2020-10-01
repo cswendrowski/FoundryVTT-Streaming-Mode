@@ -42,6 +42,7 @@ Hooks.on("ready", () => {
       for (let x=0; x <= game.users.entities.length; x++)
       {
         let user = game.users.entities[x];
+        if (user?._id == game.user._id) continue;
         if (user?.viewedScene)
         {
           if (sceneViews[user.viewedScene] == undefined)
@@ -64,8 +65,9 @@ Hooks.on("ready", () => {
           mostViewedId = sceneId;
         }
       }
-
-      game.scenes.get(mostViewedId).view();
+      if (game.user.viewedScene != mostViewedId) {
+        game.scenes.get(mostViewedId).view();
+      }
     }
   });
 

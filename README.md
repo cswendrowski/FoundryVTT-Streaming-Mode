@@ -14,5 +14,15 @@ A set of quality of life features for a user configured as the viewport for a St
 
 2) Automatically swap the scene to the scene with the most users viewing it
 
+![](./autoswap.gif)
+
 ## Changelog
 
+### v1.1.0
+
+Added auto-swap, reworked auto-center
+
+### v1.1.1
+
+Thanks to @SparkCities, we now have a Spanish translation!
+Auto-swap is now far less aggressive about swapping
