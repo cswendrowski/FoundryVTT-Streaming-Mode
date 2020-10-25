@@ -1,4 +1,4 @@
 {
-    "SM.CONFIG.CenterOnChange": "¿El juego debería cambiar el tamaño automaticamente y centrar automaticamente cuando navega a una nueva escena?",
-    "SM.CONFIG.AutoSwapScenesToMostViewers": "¿Este usuario debería cambiar automáticamente a la escena con la mayoría de los espectadores?"
+    "SM.CONFIG.CenterOnChange": "¿Se debe ajustar y centrar automaticamente la imagen de fondo cuando se navega a una escena?",
+    "SM.CONFIG.AutoSwapScenesToMostViewers": "¿Se debe mover a este usuario automáticamente a la escena con más espectadores?"
 }
