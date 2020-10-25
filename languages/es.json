@@ -1,4 +1,7 @@
 {
+    "I18N.LANGUAGE": "Español",
+    "I18N.MAINTAINERS": "@Viriato139ac#0342",
+
     "SM.CONFIG.CenterOnChange": "¿Se debe ajustar y centrar automaticamente la imagen de fondo cuando se navega a una escena?",
     "SM.CONFIG.AutoSwapScenesToMostViewers": "¿Se debe mover a este usuario automáticamente a la escena con más espectadores?"
 }
