@@ -2,9 +2,9 @@
   "name": "streaming-mode",
   "title": "Streaming Mode",
   "description": "A set of quality of life features for a user configured as the viewport for a Stream",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "minimumCoreVersion": "0.6.2",
-  "compatibleCoreVersion": "0.7.1",
+  "compatibleCoreVersion": "0.7.5",
   "author": "Cody Swendrowski <cody@swendrowski.us>",
   "esmodules": [
     "./module.js"
@@ -28,5 +28,5 @@
   ],
   "url": "https://github.com/cswendrowski/FoundryVTT-Streaming-Mode",
   "manifest": "https://github.com/cswendrowski/FoundryVTT-Streaming-Mode/releases/download/latest/module.json",
-  "download": "https://github.com/cswendrowski/FoundryVTT-Streaming-Mode/releases/download/1.1.1/module.zip"
+  "download": "https://github.com/cswendrowski/FoundryVTT-Streaming-Mode/releases/download/1.1.2/module.zip"
 }
