@@ -6,6 +6,10 @@
 
 A set of quality of life features for a user configured as the viewport for a Stream
 
+## Chrome not updating while in the background while recording / streaming?
+
+See this solution: https://gitlab.com/foundrynet/foundryvtt/-/issues/4361#note_474818401
+
 ## Features
 
 1) Autocenter and autoscale on scene change
